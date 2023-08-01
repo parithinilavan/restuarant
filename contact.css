@@ -1,0 +1,62 @@
+*{
+    margin:0px;
+}
+.contact{
+    display:flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    margin-top:70px;
+ }
+ img{
+    border-radius:100%;
+    transition:(0.3 ease);
+ }
+ img:hover{
+    transform: scale(0.9);
+ }
+body{
+    background-image:url(spoon.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+h3{
+    color: white;
+    margin-top:5px;
+    font-size:medium;
+    font-weight: 900;
+    cursor: pointer;
+}
+P{
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    cursor: pointer;
+}
+.food{
+    display: flex;
+    justify-content: center;
+    color:red;
+    font-weight:900;
+    font-style: italic;
+    cursor: pointer;
+    margin-top:40px;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color:goldenrod;
+    margin-top:40px;
+}
+#contact{
+    color:black;
+    background-color: blanchedalmond;
+    font-weight: 900;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+body{
+    background-image:url(black.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home img{
+  position: absolute;
+  left:20px;
+  top:20px;
+  border-radius:50px;
+  
+}
+h1{
+  display: flex ;
+  justify-content:center;
+  color:white;
+  margin-top:100px;
+}
+.foods{
+  display:flex;
+
+  justify-content:center;
+  transition:ease(0.2);
+}
+.foods img{
+border-radius:100%;
+border:5px solid wheat;
+}
+img:hover{
+  transform:scale(1.04);
+}
+.main{
+  color:white;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top:20px;
+}
+
+form{
+  width:100px;
+  font-weight:100;
+  padding-left:10px;
+}
+.dishes{
+  font-size:28px;
+  font-weight:100;
+  padding-left:100px;
+}
+.pri{
+  font-size:28px;
+  font-weight:100;
+}

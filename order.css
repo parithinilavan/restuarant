@@ -1,0 +1,42 @@
+*{
+    margin:0%;
+}
+body{
+    background-image:url(unique.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.icon img{
+    height:40px;
+    width:40px;
+    position:absolute;
+    border-radius:100%;
+    left:20px;
+    top:30px;
+}
+.food img{
+    height:200px;
+    width:200px;
+    border-radius:100%;
+    border:5px solid whitesmoke;
+}
+section{
+    display: grid;
+    grid-template-columns:repeat(2,500px);
+    row-gap:40px;
+    column-gap:50px;
+    justify-content: center;
+    margin-top:40px;
+}
+button{
+    position:absolute;
+    margin-top:160px;
+    margin-left:-140px;
+    border-radius:50px;
+    background-color:rgba(0, 0, 0, 0.493);
+    color:whitesmoke;
+    transition:(ease 0.3);
+}
+button:hover{
+   transform: scale(0.9)
+}
